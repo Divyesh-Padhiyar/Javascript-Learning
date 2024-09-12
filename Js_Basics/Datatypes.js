@@ -1,10 +1,13 @@
 // datatypes
 
 let number = 123
-let name = "Divyesh"
+let userName = "Divyesh"
 let stringName = 'Sonal'
 let booleantype = true
 let undefined
 let NoValue = null
 
-console.table([number,name,stringName,booleantype,undefined,NoValue]);
+console.table([number,userName,stringName,booleantype,undefined,NoValue]);
+
+
+console.log(typeof userName, typeof stringName, typeof number, typeof booleantype, typeof undefined, typeof NoValue);
